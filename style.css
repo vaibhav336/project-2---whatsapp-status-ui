@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 0, 0);
+}
+#top {
+  width: 100%;
+  height: 15%;
+  background-color: rgba(0, 128, 105, 255);
+}
+
+#UTop {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#UTopR h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  color: white;
+  margin-left: 10px;
+}
+
+#UTopL i {
+  color: white;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+#DTop {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#DTop div {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#Bottom {
+  width: 100%;
+  height: 85%;
+  background-color: rgba(255, 255, 255, 255);
+}
+
+#UBottom {
+  width: 100%;
+  height: 30%;
+}
+
+#BTT {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+}
+
+#BTT div {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+#BTM {
+  width: 100%;
+  height: 40%;
+  display: flex;
+}
+
+#BTM #R {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+#R img {
+  height: 80%;
+  margin-left: 10px;
+}
+
+#BTM #L {
+  width: 75%;
+  height: 100%;
+  align-items: center;
+}
+
+#L p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-left: 5px;
+  line-height: 0.3;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+#BTM #L p:nth-child(2) {
+  opacity: 0.6;
+  font-size: 20px;
+}
+
+#BTD {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+#BTD div {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight:bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#MBottom {
+  width: 100%;
+  height: 40%;
+}
+
+#DBottom {
+  width: 100%;
+  height: 30%;
+}
