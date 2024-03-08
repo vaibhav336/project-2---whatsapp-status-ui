@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
 }
 
 html,
@@ -9,6 +10,7 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
 }
 
 main {
@@ -31,7 +33,7 @@ main {
 }
 
 #UTopR h2 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
   font-weight: 900;
   color: white;
   margin-left: 10px;
@@ -46,18 +48,20 @@ main {
 #DTop {
   width: 100%;
   height: 50%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 10% 30% 30% 30%;
   justify-content: space-between;
   align-items: center;
 }
 
 #DTop div {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
   font-size: 20px;
   font-weight: 900;
   color: white;
   margin-left: 15px;
   margin-right: 15px;
+  text-align: center;
 }
 
 #Bottom {
@@ -80,7 +84,7 @@ main {
 }
 
 #BTT div {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
   font-size: 22px;
   font-weight: 600;
   color: rgb(0, 0, 0);
@@ -114,7 +118,7 @@ main {
 }
 
 #L p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
   font-size: 24px;
   margin-top: 20px;
   margin-left: 5px;
@@ -140,8 +144,8 @@ main {
 #BTD div {
   margin-left: 10px;
   margin-right: 10px;
-  font-weight:bold;
-  font-family: Arial, Helvetica, sans-serif;
+  opacity: .7;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
 }
 
 #MBottom {
@@ -149,7 +153,107 @@ main {
   height: 40%;
 }
 
+#MBT{
+  width: 100%;
+  height: 40%;
+
+}
+
+#MBTup{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#MBTup div{
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 1.3;
+  font-weight: 501;
+  color: rgb(0, 0, 0);
+}
+
+#MBTdown{
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 10px;
+  line-height: 1.3;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  opacity: .6;
+}
+
+#MBD{
+  width: 100%;
+  height: 60%;
+  display: grid;
+  grid-template-columns: 33% 33% 33% ;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card{
+
+  margin-left: 5px;
+  margin-right: 33px;
+  height: 80%;
+  width: 95%;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  border-radius: 15%;
+}
+
+#card1{
+  background-image: url(img/whatsapp.png);
+  background-size: cover;
+  
+}
+
+#card2{
+  background-image: url(img/Star\ Sports\ India.png);
+  background-size: cover;
+}
+
+#card3{
+  background-image: url(img/Firstpost.png);
+  background-size: cover;
+}
+
 #DBottom {
   width: 100%;
   height: 30%;
+  display: grid;
+  grid-template-rows: 30% 40% 40%;
 }
+
+#Explore{
+    width: 40%;
+    height: 60%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 128, 105, 255);
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#Create img{
+  width: 11%;
+  margin-top: 12%;
+  margin-left: 86%;
+}
+#Camera img{
+  width: 13%;
+  margin-left: 85%;
+  margin-top: 2%;
+}
+
+
+
+
