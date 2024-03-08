@@ -209,20 +209,20 @@ main {
 
 #card1{
   background-image: url(img/whatsapp.png);
-  background-size: 80%;
+  background-size: 95%;
   background-repeat: no-repeat;
   
 }
 
 #card2{
   background-image: url(img/Star\ Sports\ India.png);
-  background-size: 80%;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
 #card3{
   background-image: url(img/Firstpost.png);
-  background-size: 80%;
+  background-size: 90%;
   background-repeat: no-repeat;
 }
 
