@@ -209,18 +209,21 @@ main {
 
 #card1{
   background-image: url(img/whatsapp.png);
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
   
 }
 
 #card2{
   background-image: url(img/Star\ Sports\ India.png);
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #card3{
   background-image: url(img/Firstpost.png);
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #DBottom {
@@ -232,7 +235,7 @@ main {
 
 #Explore{
     width: 40%;
-    height: 60%;
+    height: 70%;
     padding: 10px 20px;
     border-radius: 20px;
     background-color: rgba(0, 128, 105, 255);
@@ -245,13 +248,12 @@ main {
 
 #Create img{
   width: 11%;
-  margin-top: 12%;
-  margin-left: 86%;
+  margin-top: 5%;
+  margin-left: 85%;
 }
 #Camera img{
   width: 13%;
-  margin-left: 85%;
-  margin-top: 2%;
+  margin-left: 84%;
 }
 
 
