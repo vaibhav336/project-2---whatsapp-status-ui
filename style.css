@@ -197,7 +197,6 @@ main {
 }
 
 .card{
-
   margin-left: 5px;
   margin-right: 33px;
   height: 100%;
@@ -209,20 +208,20 @@ main {
 
 #card1{
   background-image: url(img/whatsapp.png);
-  background-size: 100%;
+  background-size: 80%;
   background-repeat: no-repeat;
   
 }
 
 #card2{
   background-image: url(img/Star\ Sports\ India.png);
-  background-size: 100%;
+  background-size: 80%;
   background-repeat: no-repeat;
 }
 
 #card3{
   background-image: url(img/Firstpost.png);
-  background-size: 100%;
+  background-size: 80%;
   background-repeat: no-repeat;
 }
 
